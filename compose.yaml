@@ -4,3 +4,4 @@ services:
     tty: true
     volumes:
       - ./src:/src
+    working_dir: /src
