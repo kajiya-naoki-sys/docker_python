@@ -1,0 +1,6 @@
+services:
+  python:
+    image: python:3.10
+    tty: true
+    volumes:
+      - ./src:/src
